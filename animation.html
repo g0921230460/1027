@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cube</title>
+    <style>
+        .box{
+        width: 200px;
+            height: 200px;
+            background-color: aqua;
+            position: absolute;
+            /***從上到下，從左到右*******/
+            top:0;
+            left: 0;
+            animation: banana 5s;
+
+        }
+        .box2{
+        width: 200px;
+            height: 200px;
+            background-color: #ea05a3;
+            position: absolute;
+            /***從上到下，從左到右*******/
+            top:0;
+            left: 0;
+            animation: apple 5s;
+
+        }
+        /***動畫效果****/
+        @keyframes banana {
+            from{left: 0;}
+            to{left: 600px;}
+        }
+        @keyframes apple {
+            from{top: 0;}
+            to{top: 600px;}
+        }
+     </style>
+    
+    
+</head>
+<body>
+  <div class="box"></div>
+  <div class="box2"></div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cube</title>
+    <style>
+        .container{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            perspective: 800px;
+            margin: 20% AUTO 0;
+        }
+        .hex{
+            width:100%;
+            height:100%;
+            position:absolute;
+            transform-style: preserve-3d;
+/*            transform: rotateX(90deg);*/
+            
+           }
+        .hex div{
+            width:100%;
+            height:100%;
+            position:absolute;
+            opacity: .5;
+        }
+        .hex .plane:nth-of-type(1){background-color: #ff4d4d;}
+        .hex .plane:nth-of-type(2){background-color: #9300d4;}
+        .hex .plane:nth-of-type(3){background-color: #dbff18;}
+        .hex .plane:nth-of-type(4){background-color: #ffa133;}
+        .hex .plane:nth-of-type(5){background-color: #04f5ff;}
+        .hex .plane:nth-of-type(6){background-color: #ffff00;}
+        
+        .hex .plane:nth-of-type(1){
+            transform: translateZ(173.2px);
+        }  
+        .hex .plane:nth-of-type(2){
+            transform: rotateY(60deg)translateZ(173.2px);
+        }
+        .hex .plane:nth-of-type(3){
+            transform: rotateY(120deg)translateZ(173.2px);
+        }
+        .hex .plane:nth-of-type(4){
+            transform: rotateY(180deg)translateZ(173.2px);
+        }
+        .hex .plane:nth-of-type(5){
+            transform: rotateY(240deg)translateZ(173.2px);
+        }
+        .hex .plane:nth-of-type(6){
+            transform: rotateY(300deg)translateZ(173.2px);
+        }
+        
+     </style>
+    
+    
+</head>
+<body>
+  <div class="container">
+    <div class="hex">
+       <div class="plane"></div>
+       <div class="plane"></div>
+       <div class="plane"></div>
+       <div class="plane"></div>
+       <div class="plane"></div>
+       <div class="plane"></div>
+       
+       
+    </div>    
+  </div>
+</body>
+</html>

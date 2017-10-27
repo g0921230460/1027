@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation-1</title>
+    <style>
+        .box{
+        width: 200px;
+            height: 200px;
+            background-color: aqua;
+            position: absolute;
+            /***從上到下，從左到右*******/
+            top:0;
+            left: 0;
+            animation: banana 31s infinite;
+        }
+        /**infinite重覆動畫*forwards到固定點**/
+        .box2{
+        width: 200px;
+            height: 200px;
+            background-color: #ea05a3;
+            position: absolute;
+            /***從上到下，從左到右******/
+            top:0;
+            left: 0;
+            animation: apple 5s;
+
+        }
+        @keyframes banana {
+            from{left: 0;}
+            to{left: 600px;}
+        }
+        /*用%百分比作動畫*/
+        @keyframes apple {
+            0%{left: 0; top: 0;}
+            25%{left: 500px; top: 0;}
+            50%{left: 500px; top: 500px;}
+            75%{left: 0; top: 500px;}
+            100%{left: 0; top: 0;}
+        }
+     </style>
+    
+    
+</head>
+<body>
+  <div class="box"></div>
+  <div class="box2"></div>
+</body>
+</html>

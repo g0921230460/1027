@@ -1,0 +1,370 @@
+@media screen and (max-width:600px){
+   .container{
+            width: 100%;
+        }
+       .wrapper {
+            width: 100%;
+/*            margin: auto;*/
+        }
+        .wrapper-s{
+            width:90%;
+            margin: auto;
+        }
+        .col-3{
+            width: 100%;
+            padding: 15px;
+/*            float: left;*/
+        }
+
+        .col-4{
+            width: 100%;
+            padding: 15px;
+/*            float: left;*/
+        }
+        
+/*logo*/
+        
+/*.logo{padding: 5px;}*/
+/*   ******************************************/
+         /*nav*/
+        nav{
+            background-color: #ca74d1;
+        }
+        nav .logo{
+/*            float:left;*/
+            text-align: center;
+            letter-spacing:3px;
+            font-weight:700;
+            line-height:70px;
+        }
+        nav .menu{
+            float: right;
+        }
+        nav .menu li{
+/*            float: left;*/
+            list-style: none;
+        }
+        nav .menu a{
+            display: block;
+            text-decoration: none;
+            color: #000;
+            padding-left:15px;
+            padding-right:15px;
+            font-size: 14px;
+            line-height: 70px;
+            border-bottom: 1px solid #eee;
+    }
+/*     *********************************************************
+        /*header*/
+        header{
+            background-image:url(jacky/002.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            height: 500px;
+            display:table;            
+        }
+        header .wrapper{
+            display: table-cell;
+            vertical-align: middle;
+        }
+        header .wrapper-s{
+            border: 2;
+            
+        }
+        header h1{
+            font-size: 36px;
+            letter-spacing: 5px;
+        }
+/*      ******************************************/
+            /*works*/
+        #works {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            text-align: center;
+            
+        }
+        #works p{
+            margin-top: 15px;
+        }
+/*        ***************************************/
+        /*banner*/
+        #banner{
+            background-image:url(jacky/s6.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+            height: 1000px;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+/*        ***************************************/
+        
+        /*service*/
+        #service {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            text-align: center; 
+        }
+        #service .wrapper:nth-of-type(1){
+            text-align: center;
+        }
+         #service wrapper:nth-of-type(1) p{
+             margin-top: 30px;
+             margin-bottom: 30px;
+        }
+        #service h3{
+            margin-top: 30px;
+            margin-bottom: 30px;              
+        }   
+
+        #service .icon{           
+/*
+            width: 40px;
+            height: 40px;
+            background-color:#b9bcbc;
+*/
+        }
+        /*****框框(灰色)******/
+        #banner-2{
+            background-color: aquamarine;
+            height: 400px;
+        }
+/*        ******************************/
+        /*    about*/
+        
+        #about{
+            text-align: center;
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+       #about .name{
+           font-weight: bold;
+           margin-top: 20px;
+           margin-bottom: 15px;
+                }
+        #about .job{
+            font-size: 14px;
+        }
+        #about p{
+            margin-top: 30px;
+            margin-bottom: 30x;
+        }
+/*        *********************************************/
+
+        #purchase{
+            background-color: #000;
+            color: #f40f0f;
+   /*    ******Are you字顏色**********************************************/
+            padding-top: 200px;
+            padding-bottom: 200px;
+ /*    ******padding離框外頂,底部距離**********************************************/            
+            text-align: center;
+            background-image: url(jacky/s5.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        #purchase .display{
+            font-size: 1.6em;
+ /*    ******Are you字大小**********************************************/
+            margin-bottom: 200px;
+ /*    ******Are you字離margin框內底部距離**********************************************/           
+            font-weight: 300;
+            
+        }
+        #purchase a{
+            display: block;
+            margin: auto;
+      /******margin: auto,purchase位置至中*************/
+            width: 40%;
+            color: :#000;
+/*        ******Purchase字顏色**********************************************/
+            background-color: #8f9327;
+            border: 3px solid #e61313;
+  /*        ******Purchase框邊粗細**********************************************/          
+            padding: 10px 20px;
+ /*        ******Purchase框大小**********************************************/
+            text-decoration: none;
+        }
+/*        ****************************************************/
+/*        NEWS*/
+        #news{
+            padding-top: 150px;
+            padding-bottom: 150px;
+            text-align: center;
+        }
+        #news p{
+            margin-top: 30px;
+            margin-bottom: 30x;
+        }
+        #news .wrapper:nth-of-type(1){
+            text-align: center;
+            }
+        #news .photo {
+            position: relative;
+        }   
+        #news .photo .date{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #4016b4;
+            width: 35px;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #163131;
+        }
+        #news h4 {
+            margin-top: 50px;
+        }
+        #news .wrapper:nth-of-type(2) p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #news a{
+            text-decoration: none;
+            color: #000;
+        }
+        
+/*        *************************************************/
+      /*sponsor */
+        
+        #sponsor {
+            text-align: center;
+            
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #000;
+            color: #b20000;
+            font-size: 0;
+               }
+
+        #sponsor .brand {
+            display: inline-block;
+            width: calc(100%/3);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 16px;}
+        #sponsor.brand .fa-4x{
+                font-size: 48px;
+            }   
+            
+/*        **************************************************/
+        /*contact*/
+        
+        #contact{
+/*
+            padding-left: 300px;
+            padding-right: 300px;
+*/
+            padding-top: 150px;;
+            padding-bottom: 150px;            
+        }        
+        #contact .wrapper:nth-of-type(1)
+        {            
+            text-align: center;
+        }              
+        #contact P:nth-of-type(2)
+        {
+            margin-top: 30px;
+            margin-bottom: 30px;            
+        }        
+        #contact .item{            
+            margin-bottom: 45px;
+            margin-left: 30px;
+        }        
+        #contact .info {            
+            width: 400px;
+                                   
+        }
+        
+        #contact .info h3{            
+          letter-spacing: 6px;
+            text-align: center;
+        }
+        
+        #contact .info li{            
+            list-style: none;
+            line-height: 2em;
+        }
+        
+        #contact .info .icon{            
+            float: left;
+            width: 40px;
+/*            text-align: center;*/
+            color: #a8a8a8;
+        }
+        #contact .info .fa{
+            font-size: 36px;
+    }
+        #contact .info .content{            
+/*             float: left;*/
+            width: 200px;
+        }           
+        #contact .form{
+            width: 500px;
+/*            float: left;            */
+        }
+        .col-2{
+            width: 100%;
+            padding:  15px;
+/*            float: left;*/
+        }
+        col-1{
+            width: 100%;
+            padding: 15px;
+        }
+        #contact .form input[type=text]{
+            width: 100px;
+            padding: 15px;
+        }
+        #contact .form textarea{
+            width: 100%;
+            margin-top: 15px;
+        }
+        #contact .form input[type=submit]{
+             
+        }
+        #contact .form button{
+/*            padding: 15px 30px;*/
+            width: 200px;
+            height: 100px;
+            display: block;
+/**********display: block, SEND MESSAGE****************************/
+/*
+            margin-top: 15px;
+            margin-bottom: 150x;
+*/
+            letter-spacing: 2px;
+            border: 0;
+            background-color: #00bc7b;
+            color: #fff;
+        }
+/*      **********************/
+        /*footer*/
+        footer{
+            padding-top: 150px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        footer .logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+        footer .social{
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        footer .social a{
+            text-decoration: none;
+            color: #a8a8a8;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        footer .copy{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        } 
+}
